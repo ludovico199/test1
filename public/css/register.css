@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    background-image:url(/images/background_login.png);
+    background-size:cover;
+}
+
+
+main{
+    height:803px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.body_login{
+    display:flex;
+}
+.box{
+    height:400px;
+    width:350px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.label_text{
+    display:flex;
+    height:40px;
+    width:240px;
+    text-align: -webkit-center;
+}
+.button_login{
+    display:flex;
+    height:46px;
+    width:248px;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    bottom:60px;
+}
+.email{position:relative; top:17px}
+.remember{
+    display:flex;
+    position:relative;
+    bottom: 35px;
+    right: 67px;
+    align-items: center;
+}
+.remember_text{
+    color:white;
+}
+.password{
+    position:relative;
+    bottom:12px;
+}
