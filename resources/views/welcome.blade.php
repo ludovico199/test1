@@ -1,6 +1,5 @@
+@include('frames.header') <!-- Include l'header -->
 
-@include('frames.header') <!-- head -->
-<body>
     @include('frames.navbar') <!-- navbar desktop/mobile -->
     <main>
         @include('frames.counter') <!-- contatore sughero -->
@@ -18,7 +17,7 @@
                 <div class="nav_item">
                     <img src="images/degustazione.png" alt="Degustazione" class="nav_image">
                     <div class="overlay">
-                        <a name='events'></a>
+                        <a href="#events">EVENTI</a>
                         <div class="text_school_tasting">DEGUSTAZIONE</div>
                     </div>
                 </div>
@@ -39,3 +38,4 @@
     </main>
     @include('frames.footer') <!-- footer -->
 </body>
+</html>

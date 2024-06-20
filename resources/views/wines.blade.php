@@ -1,5 +1,5 @@
 @include('frames.header') <!-- head -->
-<body>
+
     @include('frames.navbar') <!-- navbar desktop/mobile -->
 
     <section class="nav_filter">
@@ -30,4 +30,4 @@
 
     @include('frames.footer') <!-- footer -->
 </body>
-
+</html>

@@ -1,9 +1,9 @@
-@include('frames.header') <!-- head -->
-<body >
+@include('frames.header') <!-- Include l'header -->
+
     @include('frames.navbar') <!-- navbar desktop/mobile -->
     <main class="main_database">
         <section class="id_list" style="width: 35%;">
-            <h1>lista utenti</h1>
+            <h1>Lista utenti</h1>
             <table>
                 <thead>
                     <tr>
@@ -61,8 +61,8 @@
                     <button type="submit" class="button_wine">Carica Vino</button>
                 </div>
             </form>
-
         </section>
-
     </main>
+    @include('frames.footer') <!-- footer -->
 </body>
+</html>
